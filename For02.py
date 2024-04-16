@@ -6,4 +6,8 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    answer=""
+    for i in range(n):
+        answer+=f"{i},"
+    return answer[:-1]
+print(main(3))
